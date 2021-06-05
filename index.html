@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <div class="blocks">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+    <input type="button" id='btn' value='CHANGE COLORS'>
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .blocks{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 70%;
+        margin-top: 300px;
+        margin-left: 15%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .block{
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+    }
+    #btn{
+        width: 250px;
+        margin-left: calc(50% - 125px);
+        margin-top: 100px;
+        text-align: center;
+        padding: 20px 0;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: lightblue;
+    }
+</style>
+<script src="./main.js"></script>
+</html>
